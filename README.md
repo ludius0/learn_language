@@ -1,5 +1,5 @@
-# psimulations
-My experiments with bunch of simulations. Feel free to browse it or use it.
+# simulations
+My experiments with a bunch of simulations. Feel free to browse it or use it.
 
 
 List of TO-DO:
