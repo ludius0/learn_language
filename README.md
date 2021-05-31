@@ -7,6 +7,7 @@ List of TO-DO:
 - pendium (2D)
 - Ants (with algorithm for quick searching)
 - 3D render (of cube) (with rotation)
+- 3D Animation of donut (torus)
 - Bouncing box (circles collisons)
 - Clothes simualtion (2D)
 - Angry bird (catapult)
