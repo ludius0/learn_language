@@ -1,3 +1,4 @@
+# 3D-cube
 3D projection of cube onto screen (2D): https://en.wikipedia.org/wiki/3D_projection
 
 Tried to have some practice with matrices multiplication for computer graphic and changing angles. Overall I had fun with this projects and also wrote it pretty quickly.

@@ -1,3 +1,4 @@
+# n-body
 N-body simulation:
 https://en.wikipedia.org/wiki/N-body_simulation
 
