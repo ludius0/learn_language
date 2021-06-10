@@ -20,7 +20,7 @@ pygame.display.set_caption("Bouncing balls")
 screen = pygame.display.set_mode(WSIZE)
 clock = pygame.time.Clock()
 
-# support functions
+# support functions (why not use lambdas)
 gener_color = lambda: (randint(32, 255), randint(32, 255), randint(32, 255))
 gener_pos = lambda: (randint(MAX_RADIUS, SIZE-MAX_RADIUS), randint(MAX_RADIUS, SIZE-MAX_RADIUS))
 gener_vel = lambda: (uniform(0, 0.1), uniform(0, 0.1))
@@ -47,6 +47,7 @@ class Circle:
             self_x, self_y = self.vel
             other_x, other_y = other.vel
 
+            # move vectors based on new angle
             self_x -= math.sin(angle)
             self_y += math.cos(angle)
             other_x += math.sin(angle)
@@ -56,9 +57,6 @@ class Circle:
             self.update_pos()
             other.vel = (other_x, other_y)
             other.update_pos()
-
-            #self.vel = (dvx-vx, dvy-vy)
-
 
     def update_vel(self, vector):
         x,y = self.vel
@@ -84,9 +82,9 @@ while 1:
         if event.type == pygame.QUIT:
             exit()
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_SPACE:
+            if event.key == pygame.K_SPACE: # slow down sim
                 FPS -= 10
-                FPS == FPS_LIM if FPS < 10 else FPS
+                FPS == FPS_LIM if FPS <= 0 else FPS
     
     # update circles (physic)
     for b1 in balls:
