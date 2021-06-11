@@ -8,7 +8,7 @@ List of TO-DO:
 - Ants (with algorithm for quick searching)
 - 3D render (of cube) (with rotation) (done)
 - 3D Animation of donut (torus)
-- Bouncing box (circles collisons)
+- Bouncing box (circles collisons) (done)
 - Clothes simualtion (2D)
 - Angry bird (catapult)
 - Chaos theory / equations (ugraded n-body)
