@@ -9,7 +9,7 @@ All projects function more or less as examples or proof of concepts...
 
 List of TO-DO:
 - n-body (done)
-- pendulum (2D) 
+- pendulum (2D) (done)
 - Ants (with algorithm for quick searching)
 - 3D render (of cube) (with rotation) (done)
 - 3D Animation of donut (torus)
