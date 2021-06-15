@@ -97,5 +97,5 @@ while 1:
 
     #ANGLE = 0 if ANGLE >= math.pi*2 else ANGLE
     
-    pygame.display.update()
+    pygame.display.flip()
 

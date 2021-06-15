@@ -26,6 +26,7 @@ wsize = (700, 700)
 # init pygame
 pygame.init()
 screen = pygame.display.set_mode(wsize)
+pygame.display.set_caption("N-body")
 
 
 # support functions
@@ -100,7 +101,6 @@ while 1:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
-            break
     
     # update simulation
     for b1 in BODIES:
@@ -127,6 +127,6 @@ while 1:
     # draw with pygame
     for b in BODIES:
         pygame.draw.circle(screen, COLOR, (b.pos[0], b.pos[1]), b.radius)
-    pygame.display.update()
+    #pygame.display.update()
     pygame.display.flip()
 pygame.quit()

@@ -1,15 +1,20 @@
 # simulations
 My experiments with a bunch of simulations. Feel free to browse it or use it.
 
+Main purpose of this repository is for me to figure out how I want to build the Merlin Engine: *(hiden)
+
+
+All projects function more or less as examples or proof of concepts...
+
 
 List of TO-DO:
 - n-body (done)
-- pendium (2D) with joints
+- pendulum (2D) 
 - Ants (with algorithm for quick searching)
 - 3D render (of cube) (with rotation) (done)
 - 3D Animation of donut (torus)
 - Bouncing box (circles collisons) (done)
-- Clothes simualtion (2D)
+- Clothes simulation (2D)
 - Angry bird (catapult)
 - Chaos theory / equations (ugraded n-body)
 - Conway game of life (large scale)
@@ -19,7 +24,3 @@ List of TO-DO:
 - 3D space (made with ray-casting)
 - 2D fractals visualization (with procedural generating)
 - 3D fractal visualization
-
-Requirements for other projects:
-- use / learn pyglet (mainly for 3D)
-
