@@ -16,22 +16,16 @@ WSIZE = (SIZE, SIZE)
 
 # init pygame
 pygame.init()
-pygame.display.set_caption("Bouncing balls")
+pygame.display.set_caption("Bouncing balls!")
 screen = pygame.display.set_mode(WSIZE)
 clock = pygame.time.Clock()
 
-# support functions (why not use lambdas)
-gener_color = lambda: (randint(32, 255), randint(32, 255), randint(32, 255))
-gener_pos = lambda: (randint(MAX_RADIUS, SIZE-MAX_RADIUS), randint(MAX_RADIUS, SIZE-MAX_RADIUS))
-gener_vel = lambda: (uniform(0, 0.1), uniform(0, 0.1))
-gener_rad = lambda: randint(10, MAX_RADIUS)
-
 class Circle:
-    def __init__(self, radius, position, velocity, color):
-        self.radius = radius
-        self.pos = position
-        self.vel = velocity
-        self.color = color
+    def __init__(self):
+        self.radius = randint(10, MAX_RADIUS)
+        self.pos = (randint(MAX_RADIUS, SIZE-MAX_RADIUS), randint(MAX_RADIUS, SIZE-MAX_RADIUS))
+        self.vel = (uniform(0, 0.1), uniform(0, 0.1))
+        self.color = (randint(32, 255), randint(32, 255), randint(32, 255))
     
     def collision(self, other):
         # source https://www.petercollingridge.co.uk/tutorials/pygame-physics-simulation/collisions/
@@ -42,7 +36,7 @@ class Circle:
         if distance < self.radius+other.radius:
             #print("collision!")
             tangent = math.atan2(dy, dx) # angle of vector
-            angle = (0.5 * math.pi + tangent) # get shifted angle
+            angle = (0.5 * math.pi + tangent) # get shifted angle by 90 degrees
             
             self_x, self_y = self.vel
             other_x, other_y = other.vel
@@ -68,10 +62,8 @@ class Circle:
         self.pos = (x, y)
 
 # generate circles
-balls = []
-for _ in range(generate_circles):
-    balls.append(Circle(gener_rad(), gener_pos(), \
-        gener_vel(), gener_color()))
+
+balls = [Circle() for _ in range(generate_circles)]
     
 FPS = FPS_LIM
 while 1:
@@ -93,14 +85,14 @@ while 1:
             # bounce out of collision
             b1.collision(b2)
 
-        # pos
-        x, y = b1.pos
-
         # move down by gravity
         b1.update_vel((0, GRAVITY))
 
         # update pos
         b1.update_pos()
+
+        # pos
+        x, y = b1.pos
 
         # bounce of walls
         vx, vy = b1.vel
