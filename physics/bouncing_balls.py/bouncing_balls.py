@@ -76,7 +76,7 @@ while 1:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SPACE: # slow down sim
                 FPS -= 10
-                FPS == FPS_LIM if FPS <= 0 else FPS
+                FPS = FPS_LIM if FPS <= 0 else FPS
     
     # update circles (physic)
     for b1 in balls:
