@@ -1,0 +1,119 @@
+commit 11a2d54db781043cf887525abb9be116a9dece60
+Author: ludius <playerofzero@icloud.com>
+Date:   Tue Aug 18 13:30:56 2020 +0200
+
+    Update neural_network.py
+
+commit a18f865e69ab0d46458f8492df0a5f234c42c96a
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Mon Jul 13 18:36:46 2020 +0200
+
+    Update README.md
+
+commit 3c55e703cd80673a293c12100e11041ff188b3a2
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Mon Jul 13 18:35:35 2020 +0200
+
+    Update README.md
+
+commit 3ea8e7b593dfea97d36dc19f63eb299ad5bf178c
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Fri Jul 3 11:22:07 2020 +0200
+
+    Update README.md
+
+commit 46d66e46c494f921ef3d651ebae5a1386d21dc33
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Thu Jul 2 22:41:38 2020 +0200
+
+    Update README.md
+
+commit d9e256832b7875bee6ee66745a4166064443c78e
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Thu Jul 2 21:54:20 2020 +0200
+
+    Update README.md
+
+commit f29faac517c76f8760ad99328a524ff6b8fb11d8
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Thu Jul 2 21:53:46 2020 +0200
+
+    Update README.md
+
+commit 8db8dcf5ca7d2f6699b42d2aa61dce3d4d8851fb
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Thu Jul 2 21:53:07 2020 +0200
+
+    Update README.md
+
+commit 3ccb239278f1a488b6a9b00921b7dc3484face32
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Thu Jul 2 21:52:50 2020 +0200
+
+    Update README.md
+
+commit 08ae34a4dc63a56be7770e6296b08fbf89001fa7
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Thu Jul 2 21:51:36 2020 +0200
+
+    Create README.md
+
+commit cfc0065ae272339d422ca563bb58947a857dd5c0
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Thu Jul 2 21:26:10 2020 +0200
+
+    Add files via upload
+
+commit 562de588d2ee2c5370949ae0b201b1499c305431
+Author: ludius0 <playerofzero@icloud.com>
+Date:   Thu Jul 2 21:20:18 2020 +0200
+
+    Add new model
+
+commit a4f64885a9d9dbb7e902afa5fa8cc4fdf70eecb0
+Author: ludius0 <playerofzero@icloud.com>
+Date:   Thu Jul 2 21:19:12 2020 +0200
+
+    Move to folder
+
+commit 7071202681f9cf030015e94badaa71edd8f20c65
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Wed Jun 10 15:31:05 2020 +0200
+
+    Update README.md
+
+commit 0237daa2c0ea503e6150b215b7af4a8cb36e3b66
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Wed Jun 10 13:03:22 2020 +0200
+
+    Update README.md
+
+commit dadaa387d47e5aeb4acd09313df481cce3d17bf5
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Wed Jun 10 13:02:18 2020 +0200
+
+    Update README.md
+
+commit 7fc6ef573c72acc21952d1421bcd4df5e4687c92
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Wed Jun 10 13:01:38 2020 +0200
+
+    Update README.md
+
+commit a1e7501cf120bc217ff4786a3748ed62c6e6e333
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Wed Jun 10 12:26:58 2020 +0200
+
+    Update README.md
+
+commit aaaf8074b1fa2974795fdc0fb6addb7c10b88800
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Wed Jun 10 03:28:52 2020 +0200
+
+    Add files via upload
+
+commit 0f898d8a77f3e37e2f2ca4258fdee93d9290d276
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Wed Jun 10 03:27:12 2020 +0200
+
+    Initial commit
