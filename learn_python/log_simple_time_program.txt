@@ -1,0 +1,49 @@
+commit 42178206765cb43f6ebc34a0b285be8846577847
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sun Jan 5 13:18:24 2020 +0100
+
+    Update README.md
+
+commit ac26062e2c59a9bc3f6e5ab300723f960a28f5f4
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sun Jan 5 13:12:13 2020 +0100
+
+    Changed small things.
+
+commit 4442a431ca61737f56ddab4c308b3369205c7df4
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sun Jan 5 10:02:32 2020 +0100
+
+    Fixing mistakes
+
+commit fba5ddf1cf7c41a61b539b188740de204111a786
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sun Jan 5 09:54:58 2020 +0100
+
+    Update time program.py
+
+commit 91018a7cbcc42419ccc4dac132dc23caba7c5ea7
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sun Jan 5 09:54:37 2020 +0100
+
+    Fixing
+    
+    Calendar module is for option 6.
+
+commit 03582804c210ab9036a64cfd07114d5aebe6b779
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sun Jan 5 09:46:16 2020 +0100
+
+    Update README.md
+
+commit 2d89a921cde3dcea50612b7cf36b9b094ef0cacc
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat Jan 4 17:41:39 2020 +0100
+
+    time program
+
+commit b73a43d46303af73774d3c2d6a9802e934532b48
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat Jan 4 17:36:36 2020 +0100
+
+    Initial commit

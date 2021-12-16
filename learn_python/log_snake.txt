@@ -1,0 +1,139 @@
+commit 93a7cd50fbb732c9009a3ab09c518d570f56f934
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sun Apr 19 16:40:18 2020 +0200
+
+    Update README.md
+
+commit a34398dc47217eaf1db611a9d699164647feb62e
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sun Apr 19 16:38:50 2020 +0200
+
+    Update snake.py
+
+commit 21806972d230d1f514e655bd4821aed5f1e432b5
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Thu Apr 16 11:25:59 2020 +0200
+
+    Update snake.py
+
+commit 7a00941c58564c00fe7e260b90abd121d62ba999
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Tue Apr 14 16:50:25 2020 +0200
+
+    Update snake.py
+
+commit ce5cff7e5439b5fd8453f5921a45fc420b828c1d
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Tue Apr 14 16:44:47 2020 +0200
+
+    Update snake.py
+
+commit af77f98ae0938ffb626908206e524a80e63a0fff
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Tue Apr 14 16:39:36 2020 +0200
+
+    Update README.md
+
+commit 745b5f55da1d17bb98f7a8f7370a40d9554eecc2
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Tue Apr 14 16:38:09 2020 +0200
+
+    Update README.md
+
+commit 795a4aa2c73ad9be6885a02bf6df0c799f754fba
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Tue Apr 14 16:32:00 2020 +0200
+
+    Add files via upload
+
+commit f2799205bb571479cf558b9e4737dcce2544eb4f
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Tue Apr 14 16:31:50 2020 +0200
+
+    Delete snake.py
+
+commit 93da8fc2f4505140d473c2c938193c48737becdc
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Tue Apr 14 16:31:42 2020 +0200
+
+    Delete unworking_and_abandoned_snake.py
+
+commit 4c54cd704308c91287cd77f470c7424c0bf79e36
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat Jan 25 23:30:02 2020 +0100
+
+    Update snake.py
+
+commit 3ed2f22e9d4d9d92f81a22c311669bac5cbf3857
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat Jan 25 23:27:51 2020 +0100
+
+    Update README.md
+    
+    The time has come! Finally something that work
+
+commit 8364955b8f23f3ff8ff25b2a523b25d2859e642a
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat Jan 25 23:22:05 2020 +0100
+
+    Functional snake
+    
+    Second version. Made with help of internet and tragedy of my first attempt.
+
+commit f28a13c1debffb63c11d350414718f25bf806984
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat Jan 25 22:01:27 2020 +0100
+
+    Update unworking_and_abandoned_snake.py
+
+commit 91e46fcd21597bf105f84fe5b2439968c9ff91a9
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat Jan 25 21:36:49 2020 +0100
+
+    Rename game.py to unworking_and_abandoned_snake.py
+
+commit b2618c0bf6c243b01c9b82c702954a070e540d60
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat Jan 25 20:47:51 2020 +0100
+
+    Still in progress
+    
+    Strugle
+
+commit 950ae1bca6d4acafd0d9486232361005e4603853
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat Jan 25 16:59:33 2020 +0100
+
+    Still in progress.
+    
+    Now it even render body of snake (hilariously bad)
+
+commit 11f29f277fcd93e0f2c04fa3aba519c748071f4a
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Fri Jan 24 23:26:23 2020 +0100
+
+    Still in progress
+
+commit af39b81222fac653af3c5f3a4d2fb1e47b44e40d
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Fri Jan 24 23:17:17 2020 +0100
+
+    Still in progress
+
+commit 5a5ed45a25ade7277bc1a096ef553b185479b18d
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Thu Jan 23 22:17:50 2020 +0100
+
+    In progress
+
+commit e910bf94fd8f5ddae916564723387a2bf18acc13
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Thu Jan 23 20:25:31 2020 +0100
+
+    Create game.py
+
+commit 52c3f13c058ad9af85dd22325ef98197f642398a
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Thu Jan 23 20:24:46 2020 +0100
+
+    Initial commit

@@ -1,0 +1,45 @@
+commit b686f990846313ed4919c06a359a433ec5353f63
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Tue Feb 11 18:12:36 2020 +0100
+
+    Update README.md
+
+commit 3186141d0236b7a8734ba659e10720c1cab67888
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Tue Feb 11 18:00:49 2020 +0100
+
+    Update main.py
+    
+    Add cryptography
+
+commit 50ae4afc2fddbf660f05e587b5f9403ee7936ce8
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Mon Feb 10 22:15:20 2020 +0100
+
+    Update main.py
+
+commit b794091736f7c57190d336cc394697f37d1b9e18
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Mon Feb 10 18:48:12 2020 +0100
+
+    Update main.py
+    
+    Still without cryptography, but with functional database and gui.
+
+commit bf0f369a3d83a3093dd34feb9b8f614ada452d7b
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Mon Feb 10 18:47:14 2020 +0100
+
+    Update main.py
+
+commit 33c15d1d3ab1f85a2be0560c44dc773448aa1ba8
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sun Feb 9 21:00:19 2020 +0100
+
+    Add files via upload
+
+commit b37358b89cf6556922b5ad030b215370c424cce7
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sun Feb 9 21:00:02 2020 +0100
+
+    Initial commit
