@@ -1,0 +1,2 @@
+1. Write some CI (DL, ML or RL)
+2. DL library aimed at complex numbers (super hard don't attempt)

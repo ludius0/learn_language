@@ -1,0 +1,36 @@
+----||----
+Source:
+
+https://www.haskell.org/
+http://learnyouahaskell.com/
+
+
+----||----
+About Haskell:
+
+Purely functional programming language.
+Scripts format is myfunction.hs.
+Negative numbers have to be in parenthesis.
+Functions are called by typing their name then one space then inputs (can repeat for inputs), except
+an infix function, which is called for example like this '92 `div` 10'.
+"bar (bar 3)" would be in imperative language (C) something like this "bar(bar(3))."
+
+---
+List of predefined functions:
+succ int -> return int+1
+min int int -> return the lowest number
+max int int -> return the biggest number
+
+----||----
+Commands:
+
+ghci -> set interactive compiler in terminal
+
+:l myfunction -> load script
+
+:r -> reload the script
+
+:quit -> quit ghci
+
+:set prompt "ghci> " -> change prompt to 'ghci> ' from 'Prelude> '
+

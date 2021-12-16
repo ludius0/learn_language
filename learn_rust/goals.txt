@@ -1,0 +1,3 @@
+1. Create GUI calculator.
+2. Create Atari ST Bolo clone.
+3. Create In-memory database.

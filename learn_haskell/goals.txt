@@ -1,0 +1,4 @@
+1. Create simple graphical editor
+2. Creat mini game (mine sweeper)
+3. Recreate micrograd
+4. Write small emulator
