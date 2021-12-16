@@ -1,0 +1,41 @@
+commit bef489c462c584e157244bd1094f444c75e653d6
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat May 23 00:54:22 2020 +0200
+
+    Update README.md
+
+commit c33f3cda90871cbb278a325dc701d2b811875960
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat May 23 00:49:05 2020 +0200
+
+    Update values.py
+
+commit 86d9aba5398c905ead0872aadfe31fc7742a2e5c
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat May 23 00:48:20 2020 +0200
+
+    Update main.py
+
+commit 776f0932b918946e81e97b4a9f213cad052959f1
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat May 23 00:41:49 2020 +0200
+
+    Update README.md
+
+commit c41a7ba72b5afebc854d954b697168a7843dd766
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat May 23 00:34:37 2020 +0200
+
+    Update README.md
+
+commit c92bdac3b81f01c541a1634f296fcad87b6dc16b
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat May 23 00:33:40 2020 +0200
+
+    Add files via upload
+
+commit fabfaeb2e753f2e673a9d39ee280a71f600b3857
+Author: ludius <57571014+ludius0@users.noreply.github.com>
+Date:   Sat May 23 00:33:19 2020 +0200
+
+    Initial commit
