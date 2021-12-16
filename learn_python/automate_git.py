@@ -1,15 +1,18 @@
 import os
 
 main_dir = 'learn_language'
-cwd = os.getcwd()
+second_dir = 'learn_python'
+path = "/Users/ludius/MEGAsync/CODES"
+#cwd = os.getcwd()
+#print(cwd)
 
-print(cwd)
+print(os.listdir(f"{path}/{main_dir}"))
 
-for x in os.listdir(cwd)[1::]:
-    if os.path.isdir(f"{cwd}/{x}"):
-        os.chdir(f"{cwd}/{x}")
-        os.system(f"git remote add {main_dir} {cwd[:-12]}")
+for x in os.listdir(f"{path}/{main_dir}/{second_dir}"):
+    if os.path.isdir(f"{path}/{main_dir}/{second_dir}/{x}"):
+        #os.chdir(f"{path}/{main_dir}/{x}")
+        os.system(f"git remote add {x} {path}/{main_dir}/{second_dir}/{x}")
         os.system(f"git fetch {x} --tags")
-        os.system(f"git merge --allow-unrelated-histories {main_dir}/main")
-        os.system(f"git remote remove {cwd}/{x}")
-        os.chdir(f"{cwd}")
+        os.system(f"git merge --allow-unrelated-histories {x}/main")
+        #os.system(f"git remote remove {cwd}/{x}")
+        #os.chdir(f"{path}/{main_dir}")
