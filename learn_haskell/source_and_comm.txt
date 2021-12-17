@@ -10,23 +10,80 @@ About Haskell:
 
 Purely functional programming language.
 Scripts format is myfunction.hs.
-Negative numbers have to be in parenthesis.
+"bar (bar 3)" would be in imperative language (C) something like this "bar(bar(3))."
+Everytime we change something in script, we have to (re)load it (with compiler in terminal).
+Functions cannot have variable with capitalized letter and also they can contain '.
+
+
+Data Structures:
+---
+Integers and Float numbers:
+    Don't have to predefine them.
+    Basic arithmetics works fine together.
+    Negative numbers have to be in parenthesis.
+
+
+
+Functions:
 Functions are called by typing their name then one space then inputs (can repeat for inputs), except
 an infix function, which is called for example like this '92 `div` 10'.
-"bar (bar 3)" would be in imperative language (C) something like this "bar(bar(3))."
+
+
+
+String:
+Defined by " ".
+"++" or ":" same like with list.
+Same indexing like with list.
+
+
+
+List:
+In Haskell, lists are a homogenous data structure.
+"++" put two list together. Slow for long list, but ":" (cons operator) is instantaneous, but first input is not list.
+[1,2,3] is actually just syntactic sugar for 1:2:3:[]. ([] is empty list)
+To show element from list use '!! index' (start from 0).
+When using <, <=, > and >= (and ==) to compare lists, they are compared in lexicographical order
+(head, tail, last, init) functions performed on empty list return Errir,
+    Be careful with it 'cause it's can't be catch during compile time.
+List ranges (Texas Range); use defined difference between numbers and range is defined by number behind ".." for example:
+        [1..20] will yield [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+        [20,18..0] will yield [20,18,16,14,12,10,8,6,4,2,0]
+        [int..] will yield infinite list
+    The float numbers have funky results.
+    [1,2,4,8,16..100] won't work 'cause:
+        Firstly because you can only specify one step. And secondly because some sequences that aren't arithmetic are ambiguous
+             if given only by a few of their first terms.
 
 ---
-List of predefined functions:
-succ int -> return int+1
-min int int -> return the lowest number
-max int int -> return the biggest number
+List of predefined functions :
+succ int            -> return int+1
+min int int         -> return the lowest number
+max int int         -> return the biggest number
+let variable        -> in ghci it define variable
+head list           -> return first element of list
+tail list           -> return list with every element except first one
+last list           -> return last element of list
+init list           -> return list with every element except last one
+lenght list         -> return lenght of list (number of elements its contain)
+null list           -> return True/False if list is empty
+reverse list        -> return flip order of elements in list
+take int list       -> return list with elements from beggining to input int
+drop int list       -> return list with elements from input int to end
+maximum list        -> return biggest element
+minimum list        -> return smallest element
+sum list            -> return sum of all elements
+product list        -> return product of all elements
+elem int list       -> return True/False if int is in list 
+
+Note: 
+- int or float; doesn't matter
 
 ----||----
 Commands:
 
 ghci -> set interactive compiler in terminal
 
-:l myfunction -> load script
+:l myfunction -> load script (everytime when we do change in scripts)
 
 :r -> reload the script
 
