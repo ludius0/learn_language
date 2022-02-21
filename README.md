@@ -16,7 +16,7 @@ Ussualy intermediate / advance projects will have own repository.
 My main basic interests:
 1. CI (DL, ML and RL) (+ some Data Science)
 2. Hardware (Microcontrollers / Robotics / Mechantronics / El. engineering)
-3. CS Concepts (algorithms & data structures and math behind it, design of programming languages, cybersecurity and so on....)
+3. CS Concepts (algorithms & data structures and math behind it, use of programming languages, computation, cybersecurity and so on....)
 
 
 Review and Tier List of my experience with programming languages so far (in this repo):

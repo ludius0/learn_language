@@ -1,0 +1,8 @@
+Mac, GNU/Linux, Windows:
+Download either from here for specific OS here: https://www.python.org/downloads/
+or from your IDLE (like Visual Studio Code).
+
+By confirming "add to path" you confirm terminal use case.
+
+Other here:
+https://docs.python.org/3/
