@@ -8,7 +8,7 @@ I make a list of projects I want to do and sort them by estimated difficulty.
 
 Once I create a difficult project(s) in certain language (final in the list), then I dont't need to go back and update it, because I will consider myself at least intermediate~advance in that language. That also means if I write a new project in that langugage I probably won't update the list of projects there anymore. 
 
-Also this is a dump for small and petite projects / concepts that I wanted to try or had to. 
+BTW: this is a dump for small and petite projects / concepts that I wanted to try or had to && to test my workflow with certain languages I would try to solve bunch of exercises on websites like codewars, project euler, codingames or other.
 
 Ussualy intermediate / advance projects will have own repository.
 
