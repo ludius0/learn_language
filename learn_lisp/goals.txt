@@ -1,0 +1,4 @@
+1. Write a Sudoku game.
+2. Create a Scalar-like gradient.
+3. Create an Emulator.
+4. Write an OS for mini one game console (in this language or in Haskell).

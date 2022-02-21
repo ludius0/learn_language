@@ -1,2 +1,5 @@
-1. Write some CI (DL, ML or RL)
-2. DL library aimed at complex numbers (super hard don't attempt)
+1. Write some CI (DL, ML or RL).
+	1. RL for retro game (vis. Lua).
+	2. CI for Chess game (vis. C#) (+ / | Python).
+2. Some data science project
+2. DL library aimed at complex numbers (super hard don't attempt).

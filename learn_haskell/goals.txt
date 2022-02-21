@@ -1,4 +1,4 @@
-1. Create simple graphical editor
-2. Create mini game (mine sweeper)
-3. Recreate micrograd
-4. Write small emulator
+1. Create a simple graphical editor.
+2. Create a mini game (mine sweeper).
+3. Create an algorithms (& data structure) testing (terminal probably with python) and visualisation (+ javascript) program.
+4. Write an OS for mini one game console (in this language or in Lisp)

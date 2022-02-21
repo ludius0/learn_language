@@ -1,0 +1,4 @@
+1. Write a simple note program.
+2. Write pseudo-Lisp programming language.
+3. Create a project on Arduino microcontroller or write behaviour for mini robot.
+4. Create a Compiler.

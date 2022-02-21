@@ -13,20 +13,23 @@ Scripts format is myfunction.hs.
 "bar (bar 3)" would be in imperative language (C) something like this "bar(bar(3))."
 Everytime we change something in script, we have to (re)load it (with compiler in terminal).
 Functions cannot have variable with capitalized letter and also they can contain '.
+Haskell has type inference. (will figure out if something is number without specifying it; though there is type decleration)
 
 
 Data Structures:
 ---
-Integers and Float numbers:
+Integers and Float (& Double) numbers:
     Don't have to predefine them.
     Basic arithmetics works fine together.
     Negative numbers have to be in parenthesis.
+    Usually on 32-bit machines the maximum possible Int is 2147483647 and the minimum is -2147483648.
 
 
 
 Functions:
 Functions are called by typing their name then one space then inputs (can repeat for inputs), except
 an infix function, which is called for example like this '92 `div` 10'.
+Functions that have type variables are called polymorphic functions.
 
 
 
@@ -54,12 +57,32 @@ List ranges (Texas Range); use defined difference between numbers and range is d
         Firstly because you can only specify one step. And secondly because some sequences that aren't arithmetic are ambiguous
              if given only by a few of their first terms.
 
+
+
+Tuple:
+Similiar to list, but not homogenous.
+Can contain several types of data structures.
+Cannot be infinitive.
+Tuples in list needs to be homogenous.
+Use tuples when you know in advance how many components some piece of data should have. 
+    Tuples are much more rigid because each different size of tuple is its own type, 
+        so you can't write a general function to append an element to a tuple — 
+        you'd have to write a function for appending to a pair, 
+        one function for appending to a triple, 
+        one function for appending to a 4-tuple, etc.
+
+
+
 ---
 List of predefined functions :
-succ int            -> return int+1
-min int int         -> return the lowest number
-max int int         -> return the biggest number
-let variable        -> in ghci it define variable
+Dict:
+    num = int or float or Double
+    var = int or float or string or list or tuple
+    *This doesn't mean it works always (exception like lenghts etc...)
+succ num            -> return num+1
+min num num         -> return the lowest number
+max num num         -> return the biggest number
+let var             -> in ghci it define variable
 head list           -> return first element of list
 tail list           -> return list with every element except first one
 last list           -> return last element of list
@@ -73,10 +96,43 @@ maximum list        -> return biggest element
 minimum list        -> return smallest element
 sum list            -> return sum of all elements
 product list        -> return product of all elements
-elem int list       -> return True/False if int is in list 
+elem int list       -> return True/False if int is in list
+cycle list          -> return infinite list that is cycling
+repeat num          -> return infinite list full of input
+take function       -> return limited range for functions like cycle etc...
+replicate int num   -> return list of num with int range
+fst var             -> return first element of pair
+snd var             -> return second element of pair
+zip var var         -> return joint list of tuples from both vars (works even with inf var with fin var)
 
-Note: 
-- int or float; doesn't matter
+
+----||----
+List comprehension:
+[set | range(s) / input(s), condition(s)]
+
+Examples:
+    [x*2 | x <- [1..10]]
+    [ x | x <- [50..100], x `mod` 7 == 3]
+    boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x]
+    [ x | x <- [10..20], x /= 13, x /= 15, x /= 19]
+    [ x*y | x <- [2,5,10], y <- [8,10,11]]
+    length' xs = sum [1 | _ <- xs]
+    removeNonUppercase st = [ c | c <- st, c `elem` ['A'..'Z']]
+    [ [ x | x <- xs, even x ] | xs <- xxs]
+    let rightTriangles' = [ (a,b,c) | c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2, a+b+c == 24] 
+
+    type decleration:
+    removeNonUppercase :: [Char] -> [Char]  
+    removeNonUppercase st = [ c | c <- st, c `elem` ['A'..'Z']]
+    >>>
+    addThree :: Int -> Int -> Int -> Int  
+    addThree x y z = x + y + z  
+
+
+Notes:
+- weeding out lists by predicates is also called filtering. We took a list of numbers and we filtered them by the predicate.
+- '_' means we don't care about variable so it won't have a name
+
 
 ----||----
 Commands:
@@ -91,3 +147,4 @@ ghci -> set interactive compiler in terminal
 
 :set prompt "ghci> " -> change prompt to 'ghci> ' from 'Prelude> '
 
+:t -> show data type of variable
